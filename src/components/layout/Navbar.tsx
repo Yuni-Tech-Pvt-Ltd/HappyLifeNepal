@@ -59,7 +59,7 @@ export default function Navbar() {
           className="w-10 h-10 object-contain"
         />
         <h1 className="text-xl font-bold">
-          Happy Life <span></span>Nepal
+          Happy Life <span className="text-orange-500">Nepal</span>
         </h1>
       </div>
 

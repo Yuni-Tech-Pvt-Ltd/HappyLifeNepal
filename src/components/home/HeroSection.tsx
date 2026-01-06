@@ -54,23 +54,6 @@ export default function HeroSection() {
               Make Donation
             </Link>
 
-            <div className="flex -space-x-2 sm:-space-x-3 items-center flex-wrap">
-              <img
-                src="https://randomuser.me/api/portraits/men/1.jpg"
-                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white shadow"
-              />
-              <img
-                src="https://randomuser.me/api/portraits/women/2.jpg"
-                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white shadow"
-              />
-              <img
-                src="https://randomuser.me/api/portraits/men/3.jpg"
-                className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-white shadow"
-              />
-              <span className="ml-2 sm:ml-4 text-xs sm:text-sm text-gray-300 font-medium">
-                2M+ Active donors
-              </span>
-            </div>
           </div>
         </div>
 
@@ -78,8 +61,8 @@ export default function HeroSection() {
         <div className="relative w-full flex justify-center z-10 mt-6 lg:mt-0">
           <div className="absolute right-0 top-0 w-[160%] h-full bg-[#0D1117] -z-10 opacity-60" />
           <img
-            src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600&q=80&auto=format&fit=crop"
-            className="w-full h-64 rounded-xl sm:h-80 md:h-[500px] lg:h-[600px] object-cover shadow-2xl shadow-black/40"
+            src="/gallery2.jpg"
+            className="w-full h-54 rounded-xl sm:h-80 md:h-[500px] lg:h-[500px] object-cover shadow-2xl shadow-black/40"
             alt="NGO"
           />
         </div>
