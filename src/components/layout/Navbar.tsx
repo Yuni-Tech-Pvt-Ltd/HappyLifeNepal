@@ -71,34 +71,12 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
-
-      {/* Desktop Auth Button */}
-      <div className="hidden lg:flex items-center gap-4">
-        {!user ? (
-          <button
-            onClick={() => navigate("/auth/login")}
-            className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-full font-semibold shadow-lg shadow-orange-500/30"
-          >
-            Login
-          </button>
-        ) : (
-          <button
-            onClick={handleLogout}
-            className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-full font-semibold shadow-lg shadow-red-500/30"
-          >
-            Logout
-          </button>
-        )}
-      </div>
-
-      {/* Mobile Menu Button */}
       <div className="lg:hidden">
         <button onClick={() => setIsOpen(!isOpen)} className="text-2xl">
           {isOpen ? "✖" : "☰"}
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-[#0D1117]/95 backdrop-blur-md flex flex-col items-center py-6 space-y-4 lg:hidden border-t border-white/10">
           {menuItems.map((item) => (

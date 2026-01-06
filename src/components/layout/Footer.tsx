@@ -9,9 +9,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="bg-primary rounded-full p-2">
-                <Heart className="h-5 w-5 text-white fill-white" />
-              </div>
+              
+                <img src="/logo.png" alt="Logo" className="w-12 h-12 object-contain" />
               <span className="text-xl font-bold text-white">HappyLife<span className="text-primary">Nepal</span></span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
@@ -48,11 +47,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-sm">Kathmandu, Nepal</span>
+                <span className="text-sm">Butwal, Nepal</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-primary flex-shrink-0" />
-                <span className="text-sm">+977 XXX-XXXXXXX</span>
+                <span className="text-sm">+977 9869476794 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
